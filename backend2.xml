@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="github"
+        fetch="https://github.com/" />
+    <default remote="github"
+        sync-j="4"
+        sync-c="true" />
+<!-- GIT projects -->
+<!-- test-common project -->
+    <project path="test-common" name="test-common" revision="b20c27450f92ee5fca48fc45ac412255a13580c7" upstream="develop"/>
+<!-- backend2 project -->    
+    <project path="backend2" name="test-backend2" revision="33b7248d6be3072a522c2202f1d6fa565ba5dbb8" upstream="main"/>
+</manifest>
